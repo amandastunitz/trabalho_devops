@@ -3,12 +3,12 @@ import './App.css'
 function App() {
   return(
     <main>
-      <selection>
+      <section>
         <h1>
           Login
         </h1>
         <form>
-          <label htmlFor="e-mail">
+          <label htmlFor="email">
             E-mail
           </label>
         <input
@@ -26,13 +26,13 @@ function App() {
           type="password"
           placeholder="Digite sua senha"
         />
-        <button type="sumit">
+        <button type="submit">
           Acessar
         </button>
 
         <p></p>
         </form>
-      </selection>
+      </section>
     </main>
   )
 }
