@@ -8,10 +8,8 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background-color:  #f1f5f9;
+  background-color: #f1f5f9;
 }
-
-
 
 .formulario {
   display: flex;
@@ -34,7 +32,7 @@
 
 .formulario input:focus {
   border-color: #73849b;
-  box-shadow: 0 0 0 3px rgba(143, 142, 163, 0.15);
+  box-shadow: 0 0 0 3px rgba(208, 207, 224, 0.15);
 }
 
 .formulario button {
@@ -60,3 +58,11 @@
   font-weight: 700;
 }
 
+.mensagem.sucesso {
+  color: #15803d;
+}
+
+.mensagem.erro {
+  color: #dc2626;
+
+}
