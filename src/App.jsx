@@ -2,12 +2,12 @@ import './App.css'
 
 function App() {
   return(
-    <main>
-      <section>
+    <main className="pagina">
+      <section className="cartao-login">
         <h1>
           Login
         </h1>
-        <form>
+        <form className="formulario">
           <label htmlFor="email">
             E-mail
           </label>
@@ -30,7 +30,7 @@ function App() {
           Acessar
         </button>
 
-        <p></p>
+        <p className="mensagem"></p>
         </form>
       </section>
     </main>
