@@ -35,3 +35,6 @@ jobs:
 
       - name: Gerar build de producao
         run: npm run build
+
+      - name: Construir imagem Docker
+        run: docker build -t trabalho-devops:test .
