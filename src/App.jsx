@@ -1,15 +1,10 @@
-import LoginForm from './components/LoginForm'
+import AppRoutes from './routes/AppRoutes'
 import './App.css'
 
 function App() {
   return(
     <main className="pagina">
-      <section className="cartao-login">
-        <h1>
-          Login
-        </h1>
-        <LoginForm />
-      </section>
+      <AppRoutes/>
     </main>
   )
 }

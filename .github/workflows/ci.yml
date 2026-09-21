@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature/login
 
   pull_request:
     branches:
@@ -29,6 +28,9 @@ jobs:
 
       - name: Instalar dependencias
         run: npm ci
+
+      - name: Executar testes unitarios
+        run: npm run test
 
       - name: Verificar o codigo
         run: npm run lint
